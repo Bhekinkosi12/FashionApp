@@ -15,7 +15,7 @@ namespace FashionApp.Views
         public ExplorePage()
         {
             InitializeComponent();
-            this.BindingContext = this;
+            BindingContext = this;
         }
 
         public List<Category> AllCategories { get => GetCategories(); }
